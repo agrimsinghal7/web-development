@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Registration form</title>
+</head>
+<body>
+    <h2>Github Registration Form</h2>
+    <form action="/submit" method="post"
+    onsubmit="return validateemail()">
+<label for="username">username:</label><br>
+<input 
+type="text"
+id="username"
+name="username"
+placeholder="Enter your username"
+required><br><br>
+<label for="email">Email:</label><br>
+<input 
+type="Email"
+id="Email"
+name="Email"
+placeholder="Enter your email"
+required><br><br>
+<label for="password">Passwrod:</label><br>
+<input 
+type="password"
+id="password"
+name="passwrod"
+placeholder="Enter your password"
+required><br><br>
+<input type="submit"
+value="Register">
+</form>
+</body>
+</html>
